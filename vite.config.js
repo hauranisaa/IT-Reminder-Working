@@ -4,7 +4,7 @@ import path from "path";
 
 // base "./" membuat build bisa jalan di GitHub Pages dengan nama repo apa pun
 export default defineConfig({
-  base: "./",
+  base: "/IT-Reminder-Working/",
   plugins: [react()],
   resolve: {
     alias: { "@": path.resolve(__dirname, "src") },
